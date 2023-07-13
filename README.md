@@ -14,6 +14,12 @@ NbaStatTrack is a Python-based sports-oriented application designed to retrieve 
 1. Setup the project utilizing Python
 2. Pseudocoded what I wanted to do in JavaScript(Make an API request based on user input and send the JSON information back to our user in some sort of clean format).
 3. Researched Python syntax to implement what I wanted to do above. 
+  - Learned the syntax for:
+      - Declaring variables
+      - Importing dependencies
+      - Using if-else statements
+      - Looping
+      - Array Manipulation
 
 ## Libraries/Tools used
 
