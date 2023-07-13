@@ -2,7 +2,7 @@
 
 NbaStatTrack is a Python-based sports-oriented application designed to retrieve player information and display season averages for the latest 2022 season. The application interacts with the BallDontLie API to fetch player data and showcase relevant statistics.
 
-<img src="https://media.giphy.com/media/vHMtzlS1QmezZBcH97/giphy.gif" alt="NBA stat track overview" height="100%" />
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzdoZXhqMXdjZmVnODZwdWhmM3NiY2xmdjRmazNzMHRqbDB6aHgyNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EZgnl4SE0pxaiSXE4i/giphy.gif" alt="NBA stat track overview" height="100%" />
 
 ## Optimizations
 
