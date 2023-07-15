@@ -1,13 +1,16 @@
 ## NBA Stat Track
 
-NbaStatTrack is a Python-based sports-oriented application designed to retrieve player information and display season averages for the latest 2022 season. The application interacts with the BallDontLie API to fetch player data and showcase relevant statistics.
+The NBA Stat Track API is a Python-based sports-oriented application designed to retrieve player information and display season averages for the latest 2022 season. It interacts with the BallDontLie API to fetch player data and showcases relevant statistics. Originally built as a terminal application, it has been converted to a public-facing API utilizing Flask on the backend and Docker for hosting.
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzdoZXhqMXdjZmVnODZwdWhmM3NiY2xmdjRmazNzMHRqbDB6aHgyNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EZgnl4SE0pxaiSXE4i/giphy.gif" alt="NBA stat track overview" height="100%" />
+Try for yourself: https://nba-stat-track.onrender.com/player/lebron%20james
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjllaTF5MXJnZnNxbWxtMm12eWl2b25zMzFrcnNnNmg4OGlrZndvZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WadO4tgDrFPejyaHIj/giphy.gif" alt="NBA stat track overview" height="100%" />
 
 ## Optimizations
 
-1. Add testing to ensure the two APIs being called work as intended.
-2. Add more layers to this project such as the ability to get player averages from any season.
+1. Add testing to ensure the APIs being called are working as intended.
+2. Expand the functionality by adding more layers to the project, such as the ability to retrieve player averages from any season.
+3. Add filtering capabilities.
 
 ## Steps when building: 
 
@@ -20,6 +23,10 @@ NbaStatTrack is a Python-based sports-oriented application designed to retrieve 
       - Using if-else statements
       - Looping
       - Array Manipulation
+4. Utilized a quick start guide to build a public-facing API using Flask and Docker.
+5. Created the API endpoint.
+6. Implemented Models and Serializers for better data validation and maintainability.
+7. Dockerized the application to enable easy deployment on Render.
 
 ## Libraries/Tools used
 
@@ -27,14 +34,16 @@ NbaStatTrack is a Python-based sports-oriented application designed to retrieve 
 2. Tabulate
 3. Requests
 4. BallDontLie API
+5. Flask
+6. Marshmellow for Object Serialization.
+7. Docker
 
-## How to Run
+## How to Use
+- To retrieve player statistics, use the following endpoint:
+    - https://nba-stat-track.onrender.com/player/{player name}
+- Replace {player name} with the name of the player you want to fetch statistics for, with spaces between the first and last name. For example:
+  - https://nba-stat-track.onrender.com/player/lebron%20james
+- This will return the player information and season averages for the specified player.
 
-1. Download the repository to your local machine
-2. Locate the folder and navigate to it using your terminal or command prompt.
-3. Download the necessary dependencies using: pip3 install requests tabulate
-3. Run the following command to start the application: python3 api.py
-4. When prompted, enter the name of the player you are looking for, including any spaces between the first and last name.
-5. The application will fetch the player's information and display their season averages.
+Feel free to explore the NBA Stat Track API and retrieve statistics for your favorite NBA players!
 
-Please ensure that you have Python 3 installed on your machine and that the necessary dependencies are available. Feel free to modify the command if your Python executable is named differently (python, python3, etc.).
